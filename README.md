@@ -1,0 +1,2 @@
+Web Development for Beginners - A Curriculum
+Learn the fundamentals of JavaScript, CSS, and HTML with our comprehensive 12-week course, brought to you by Microsoft Cloud Advocates. Each of the 24 lessons includes pre- and post-lesson quizzes, detailed written instructions, solutions, assignments, and much more. With a project-based approach to learning, our curriculum is designed to help you develop practical skills through hands-on building. Enhance your skills and optimize your knowledge retention
