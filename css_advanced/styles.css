@@ -6,7 +6,7 @@ body {
     display: flex;
     flex-direction: row;
     flex: auto;
-    background-image: url("https://c.wallhere.com/photos/85/a2/women_face_monochrome_smiling_portrait_black_background-611746.jpg!d");
+    background-image: url("background.jpg");
     padding: 2% 5% 2% 5%;
     position: absolute;
     left: -0.025%;
