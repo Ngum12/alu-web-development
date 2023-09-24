@@ -1,4 +1,4 @@
-body {
+<style>body {
     font-family: "Source Sans Pro";
     font-style: normal;
   }
@@ -12,7 +12,7 @@ body {
     left: -0.025%;
     right: -0.025%;
     top: 0%;
-    bottom: -26.48%;
+    bottom: -70%;
   }
   
   header .logo {
@@ -388,3 +388,195 @@ body {
     font-size: 12px;
     line-height: 15px;
   }
+  .profile {
+    display: inline-block;
+    margin: 10px; /* Add margin for spacing between profiles */
+}
+.centered-profiles {
+    text-align: center; /* Center the content horizontally */
+    margin-top: 110px; /* Add margin to push the content down */
+}
+.rounded-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Preserve aspect ratio and cover the entire circle */
+}
+.testimonial-section {
+    background: #C271FF; /* Background color */
+    padding: 20px; /* Add padding for spacing */
+}
+
+.testimonial {
+    display: flex;
+    align-items: center;
+}
+
+.testimonial img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Preserve aspect ratio and cover the entire circle */
+}
+
+.testimonial div {
+    margin-left: 20px; /* Add margin for spacing between the image and content */
+}
+
+/* Add any additional styles you need */
+.top-right {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+
+        .top-right a {
+            margin-left: 10px;
+        }
+        .register-button {
+            background-color: #C271FF; /* Background color */
+            color: white; /* Text color */
+            padding: 10px 20px; /* Padding for button */
+            border: none; /* Remove border */
+            border-radius: 5px; /* Add rounded corners */
+            font-weight: bold; /* Make text bold */
+            cursor: pointer; /* Add a pointer cursor on hover */
+        
+        }
+        .header {
+            padding: 10px; /* Padding for the header */
+            text-align: center; /* Center-align the text */}
+
+        .header h2 {     .center-text {
+            text-align: center; /* Center-align the text */
+        }
+
+        .center-text h1 {
+            font-size: 24px; /* Adjust the font size */
+        }
+
+        .center-text span {
+            font-size: 18px; /* Adjust the font size for the span */
+        }
+            font-size: 24px; /* Adjust the font size */
+            font-weight: bold; /* Make text bold */
+            margin: 0; /* Remove margin to align with the padding */
+        }
+
+        .header span {
+            font-size: 18px; /* Adjust the font size for the span */
+        }
+        .center-text {
+            text-align: center; /* Center-align the text */
+        }
+
+        .center-text h1 {
+            font-size: 24px; /* Adjust the font size */
+        }
+
+        .center-text span {
+            font-size: 18px; /* Adjust the font size for the span */
+        }
+        .section-container {
+    display: flex;
+    justify-content: start; /* Distribute sections evenly */
+    flex-wrap: wrap; /* Allow wrapping to the next line if necessary */
+}
+
+.section {
+    width: calc(300px); /* Set the width for each section (adjust as needed) */
+    padding: 10px; /* Add spacing between sections */
+    text-align: center; /* Center-align section content */
+    margin-bottom: 20px; /* Add margin at the bottom of each section */
+    background; /* Background color */
+}
+.center-text {
+    text-align: center; /* Center-align the text */
+}
+
+.center-text h1 {
+    font-size: 50px; /* Adjust the font size */
+    font-weight: bold; /* Make text bold */
+}
+
+.center-text span {
+    color: ; /* Change the color of the span text */
+}
+.horizontal-section-container {
+    display: flex;
+    justify-content: center; /* Distribute sections evenly */
+    flex-wrap: nowrap; /* Allow wrapping to the next line if necessary */
+    margin-right: 10%;
+}
+
+.horizontal-section {
+    width: calc(200px); /* Set the width for each section (adjust as needed) */
+    padding: 10px; /* Add spacing between sections */
+    text-align: center; /* Center-align section content */
+    margin-bottom: 20px; /* Add margin at the bottom of each section */
+    border: 1px solid ; /* Add a border to each section */
+    background-color: /* Add a background color to each section */
+}
+.center-button {
+    text-align: center; /* Center-align the button */
+}
+
+.center-button button {
+    padding: 10px 20px; /* Add padding to the button */
+    background-color: #C271FF; /* Background color */
+    color: white; /* Text color */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add rounded corners */
+    font-weight: bold; /* Make text bold */
+    cursor: pointer; /* Add a pointer cursor on hover */
+}
+.custom-background {
+    background: #071629; /* Background color */
+    color: white; /* Text color */
+    padding: 5px; /* Add padding for spacing */
+}
+.center-elements {
+    text-align: center; /* Center-align the elements */
+}
+
+.center-elements h1 {
+    font-size: 24px; /* Adjust the font size for the h1 element */
+    font-weight: bold; /* Make text bold */
+}
+
+.center-elements div {
+    /* Styles for the content inside the div if needed */
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns with equal width */
+    gap: 20px; /* Gap between grid items */
+}
+
+.grid-item {
+    border: /* Add a border to each grid item */
+    padding: 20px; /* Add padding to each grid item */
+    background-color: /* Background color for each grid item */
+}
+.float-right {
+    float: right;
+}
+.top-right a {
+        color: white; /* Set link color to white */
+        text-decoration: none; /* Remove underlines from links, if needed */
+        margin-right: 20px; /* Add spacing between links, adjust as needed */
+    }
+    .header h2 {
+        text-align: center; /* Center-align the text */
+        margin-top: 40px; /* Adjust the top margin to move the text downward */
+    }
+
+    .header h2 span {
+        color: #C271FF; /* Change the color of "Learn" to #C271FF */
+        font-size: 25px;
+    }
+
+    .header h2 span + * {
+        color: white; /* Change the color of "from the pros" to white */
+        font-size: 20px;
+    }
